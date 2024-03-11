@@ -1,0 +1,82 @@
+/* Estilos CSS para o gerenciador de finanças */
+/* Adicione seus estilos aqui */
+.controle-financeiro {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .controle-financeiro h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .entrada-transacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .entrada-transacao input[type="text"],
+  .entrada-transacao input[type="number"],
+  .entrada-transacao select {
+    width: calc(33.33% - 10px);
+    padding: 5px;
+  }
+
+  .entrada-transacao button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .transacao {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .transacao.despesa {
+    background-color: #f8d7da;
+  }
+
+  .transacao.receita {
+    background-color: #d4edda;
+  }
+
+  .transacao .descricao {
+    flex: 2;
+  }
+
+  .transacao .valor {
+    flex: 1;
+  }
+
+  .transacao .excluir-btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .saldo {
+    margin-top: 20px;
+  }
+
+  .saldo span {
+    font-weight: bold;
+  }
+
+  .saldo-positivo {
+    color: #28a745;
+  }
+
+  .saldo-negativo {
+    color: #dc3545;
+  }
